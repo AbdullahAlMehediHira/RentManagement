@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RentApplication</string>
+    <string name="owner">বাড়ির মালিক</string>
+    <string name="tenants">Tenants</string>
 </resources>
