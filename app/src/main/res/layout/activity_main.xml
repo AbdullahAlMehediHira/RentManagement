@@ -43,7 +43,30 @@
         android:layout_centerHorizontal="true"
         android:textColor="#050505"
         android:textSize="30sp" />
-        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:layout_marginTop="154dp"
+        android:text="@string/ifownerthenpress"
+        android:textColor="#0A0A0A"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="367dp"
+        android:layout_height="136dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="387dp"
+        android:text="@string/tenantnote"
+        android:textColor="#020202"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>
