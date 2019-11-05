@@ -3,6 +3,6 @@
     <string name="owner">বাড়ির মালিক</string>
     <string name="tenants">Tenants</string>
     <string name="rem">REM সিস্টেমে স্বাগত জানাই</string>
-    <string name="ifownerthenpress">যদি আপনি বাড়ির মালিক হন তবে নীচের আইকন টিপুন</string>
+    <string name="ifownerthenpress">যদি আপনি বাড়ির মালিক হন তবে নীচের আইকন চাপুন </string>
     <string name="tenantnote">যদি আপনি ভাড়াটে হন তবে নিচের আইকনে টিপুন</string>
 </resources>
