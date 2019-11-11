@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".Owner_log">
+
+
+
+
+    <EditText
+        android:id="@+id/Namelogin"
+        android:layout_width="255dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="222dp"
+        android:background="@drawable/round_edit"
+        android:drawableLeft="@drawable/username"
+        android:ems="10"
+        android:hint="@string/ownerssss"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="329dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="307dp"
+        android:text="@string/nummmmmmb"
+        android:textColor="#000001"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="143dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="142dp"
+        android:text="@string/writename"
+        android:textColor="#000001"
+        android:layout_centerHorizontal="true"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/numberlogin"
+        android:layout_width="252dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="395dp"
+        android:background="@drawable/round_edit"
+        android:drawableLeft="@drawable/password"
+        android:ems="10"
+        android:hint="@string/numberrss"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/logtohome"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="477dp"
+        android:background="@drawable/round_button"
+        android:text="@string/mainpage"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

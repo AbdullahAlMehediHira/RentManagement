@@ -14,16 +14,15 @@
     <string name="presstoenter">নিবন্ধন করুন</string>
     <string name="nummbers">নাম্বার</string>
     <string name="button_login">লগইন</string>
+    <string name="writename">নাম লিখুন</string>
+    <string name="nummmmmmb">আপনার মোবাইল নম্বর প্রবেশ করুন</string>
+    <string name="ownerssss">নাম</string>
+    <string name="mainpage">লগইন</string>
+    <string name="numberrss">নাম্বার</string>
 
 
-
-
-
-<<<<<<< HEAD
     <string name="ifownerthenpress">যদি আপনি বাড়ির মালিক হন তবে নীচের আইকন চাপুন</string>
     <string name="tenantnote">যদি আপনি ভাড়াটে হন তবে নিচের আইকনে চাপুন</string>
-=======
-    <string name="ifownerthenpress">যদি আপনি বাড়ির মালিক হন তবে নীচের আইকন চাপুন </string>
-    <string name="tenantnote">যদি আপনি ভাড়াটে হন তবে নিচের আইকনে টিপুন</string>
->>>>>>> ecfbaf11c9e624c799758ae122b9929aeeea5187
+
+
 </resources>
