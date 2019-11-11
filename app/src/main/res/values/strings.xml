@@ -10,6 +10,10 @@
     <string name="number_confirm">আবার নম্বর লিখুন</string>
     <string name="t1">আপনার নাম প্রবেশ করুন</string>
     <string name="name">নাম</string>
+    <string name="num">নাম্বার</string>
+    <string name="presstoenter">নিবন্ধন করুন</string>
+    <string name="nummbers">নাম্বার</string>
+    <string name="button_login">লগইন</string>
 
 
 
