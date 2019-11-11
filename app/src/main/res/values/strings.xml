@@ -1,8 +1,20 @@
 <resources>
     <string name="app_name">RentApplication</string>
     <string name="owner">বাড়ির মালিক</string>
-    <string name="tenants">Tenants</string>
+    <string name="tenants">ভাড়াটিয়া</string>
     <string name="rem">REM সিস্টেমে স্বাগত জানাই</string>
+    <string name="rems">REMS</string>
+    <string name="number">আপনার
+মোবাইল নম্বর প্রবেশ করুন</string>
+    <string name="ifregistered">নিবন্ধিত হলে নীচের বাটন টিপুন</string>
+    <string name="number_confirm">আবার নম্বর লিখুন</string>
+    <string name="t1">আপনার নাম প্রবেশ করুন</string>
+    <string name="name">নাম</string>
+
+
+
+
+
 <<<<<<< HEAD
     <string name="ifownerthenpress">যদি আপনি বাড়ির মালিক হন তবে নীচের আইকন চাপুন</string>
     <string name="tenantnote">যদি আপনি ভাড়াটে হন তবে নিচের আইকনে চাপুন</string>
