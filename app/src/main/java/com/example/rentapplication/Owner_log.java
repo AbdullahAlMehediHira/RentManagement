@@ -10,9 +10,6 @@ import android.widget.Toast;
 
 public class Owner_log extends AppCompatActivity {
 
-
-
-
     EditText a1,a2;
     DatabaseHelper sqLiteDatabase;
 
