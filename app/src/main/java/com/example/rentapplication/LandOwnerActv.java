@@ -11,7 +11,7 @@ import android.widget.Toast;
 public class LandOwnerActv extends AppCompatActivity {
 
 
-    EditText e1,e2,e3;
+    EditText e1,e2;
     DatabaseHelper sqLiteDatabase;
     Button Button3;
 
