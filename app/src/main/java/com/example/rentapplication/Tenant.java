@@ -13,7 +13,7 @@ public class Tenant extends AppCompatActivity {
 
     EditText l1,l2;
     DatabaseHelper sqLiteDatabase;
-    Button Button3;
+    Button Button4;
 
     public Button log;
     public void logs(){
@@ -42,8 +42,8 @@ public class Tenant extends AppCompatActivity {
         l1=(EditText)findViewById(R.id.names);
         l2=(EditText)findViewById(R.id.numbers);
 
-        Button3=(Button)findViewById(R.id.reg);
-        Button3.setOnClickListener(new View.OnClickListener() {
+        Button4=(Button)findViewById(R.id.reg);
+        Button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String y1 = l1.getText().toString();

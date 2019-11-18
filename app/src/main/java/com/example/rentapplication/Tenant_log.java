@@ -13,10 +13,10 @@ public class Tenant_log extends AppCompatActivity {
     EditText x1,x2;
     DatabaseHelper sqLiteDatabase;
 
-    public Button tlogs;
+    public Button tent;
     public void Homes(){
-        tlogs=(Button)findViewById(R.id.Tlog);
-        tlogs.setOnClickListener(new View.OnClickListener() {
+        tent=(Button)findViewById(R.id.Tlog);
+        tent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent u = new Intent(Tenant_log.this,Tenant_home_page.class);
