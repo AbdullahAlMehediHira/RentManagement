@@ -79,9 +79,8 @@
         android:layout_centerHorizontal="true"
         android:inputType="numberPassword" />
 
-
     <Button
-        android:id="@+id/register"
+        android:id="@+id/reg"
         android:layout_width="262dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -90,26 +89,19 @@
         android:background="@drawable/round_button"
         android:text="@string/presstoenter"
         android:textSize="20sp"
-        android:textStyle="bold" />
-
+        android:textStyle="bold"  />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/log"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="593dp"
+        android:layout_marginTop="643dp"
         android:background="@drawable/round_button"
         android:text="@string/button_login"
         android:textSize="20sp"
         android:textStyle="bold" />
-
-
-
-
-
-
 
 
 </RelativeLayout>
