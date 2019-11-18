@@ -43,21 +43,21 @@ public class LandOwnerActv extends AppCompatActivity {
         sqLiteDatabase = new DatabaseHelper(this);
         e1=(EditText)findViewById(R.id.name);
         e2=(EditText)findViewById(R.id.number);
-        e3=(EditText)findViewById(R.id.cnumber);
+
         Button3=(Button)findViewById(R.id.register);
         Button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String s1 = e1.getText().toString();
                 String s2 = e2.getText().toString();
-                String s3 = e3.getText().toString();
-                if (s1.equals("") || s2.equals("") || s3.equals("")) {
+
+                if (s1.equals("") || s2.equals("")) {
                     Toast.makeText(getApplicationContext(), "স্থান পূরণ করুন", Toast.LENGTH_SHORT).show();
 
                 }
 
                 else {
-                    if (s2.equals(s3)) {
+
                         Boolean checkmate = sqLiteDatabase.checkmate(s1);
                         if (checkmate == true) {
                             Boolean insert = sqLiteDatabase.insert(s1, s2);
@@ -70,7 +70,7 @@ public class LandOwnerActv extends AppCompatActivity {
                         }
 
 
-                    }
+
                     //Toast.makeText(getApplicationContext(),"সংখ্যা মেলে না",Toast.LENGTH_SHORT).show();
 
                 }

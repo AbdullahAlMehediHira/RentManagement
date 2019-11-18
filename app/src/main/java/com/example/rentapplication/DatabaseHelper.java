@@ -45,9 +45,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
     // checking if name exists of owners
-    public Boolean checkmate(String name){
+    public Boolean checkmate(String number){
         SQLiteDatabase  sqLiteDatabase = this.getReadableDatabase();
-        Cursor cursor = sqLiteDatabase.rawQuery("Select * from user where name =?",new String[]{name});
+        Cursor cursor = sqLiteDatabase.rawQuery("Select * from user where number =?",new String[]{number});
         if(cursor.getCount()>0) return false;
         else return true;
 
